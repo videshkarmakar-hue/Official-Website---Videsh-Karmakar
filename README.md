@@ -26,7 +26,7 @@ From music streaming applications to useful everyday tools, the website provides
 - **Latest Updates** — Stay informed about new projects, releases, and improvements.
 - **Modern Experience** — A clean and user-friendly platform for exploring my creations.
 
-## Website Preview
+## Owner (Music Producer, Independent Developer)
 
 ![Videsh Karmakar Official Website Preview](https://cdn.phototourl.com/member/2026-11-17-5a49e987-e682-44a4-be07-82fb958b4929.png)
 
