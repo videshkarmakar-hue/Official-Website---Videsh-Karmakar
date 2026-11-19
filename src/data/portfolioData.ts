@@ -265,60 +265,39 @@ export const PORTFOLIO_DATA: ArtistPortfolioData = {
     {
       id: 'app-slot-01',
       slotNumber: '01',
-      appName: 'V-Tune 3.0',
-      websiteUrl: 'https://vtune3.ai.studio/',
-      tagline: 'Music Without Limits. Built for Everyone.',
+      appName: 'DOOM Music',
+      websiteUrl: 'https://doom-music.vercel.app/',
+      tagline: 'Music Without Limits',
       description:
-        'V-Tune 3.0 is a lightweight music streaming alternative to Spotify and YouTube Music, specially designed for low-end devices. It focuses on simplicity, performance, and an effortless listening experience without unnecessary complexity.',
-      category: 'Android · Music Streaming',
+        'DOOM is a lightweight, modern music streaming application designed to deliver a premium music-listening experience without demanding powerful hardware. An excellent alternative to Spotify Premium and YouTube Music Premium, DOOM focuses on performance, simplicity, and accessibility — making music streaming enjoyable even on low-end devices.',
+      category: 'Web · Music Streaming',
       isPopulated: true,
       about: [
-        'V-Tune 3.0 aims to deliver a modern music experience while keeping performance and accessibility at its core.',
-        "Whether you're using a high-end smartphone or a budget device, V-Tune focuses on providing a clean, lightweight, and responsive experience. Simple. Lightweight. Smooth.",
+        'DOOM is a lightweight, modern music streaming application designed to deliver a premium music-listening experience without demanding powerful hardware.',
+        'An excellent alternative to Spotify Premium and YouTube Music Premium, DOOM focuses on performance, simplicity, and accessibility — making music streaming enjoyable even on low-end devices.',
+        "Our mission is simple: Make premium music streaming accessible to everyone, regardless of their device's hardware capabilities. DOOM isn't just another music player — it's an attempt to redefine lightweight music streaming with a focus on speed, simplicity, and user experience.",
+        '"Premium music experience. Minimal resource consumption. No hardware limitations."',
+        'DOOM — Feel the Music. Not the Hardware.',
       ],
       highlights: [
-        {
-          title: 'Music Experience',
-          detail: 'An alternative to Spotify and YouTube Music.',
-        },
-        {
-          title: 'Lightweight Performance',
-          detail: 'Specially designed for low-end devices.',
-        },
-        {
-          title: 'Device Friendly',
-          detail: 'Focused on smooth performance across Android devices.',
-        },
-        {
-          title: 'Modern Design',
-          detail: 'Clean interface with a user-friendly experience.',
-        },
-        {
-          title: 'Accessible Experience',
-          detail: 'Designed to make music listening simple and convenient.',
-        },
+        {title: 'Premium Music Experience', detail: 'Enjoy a smooth and immersive music-listening experience.'},
+        {title: 'Lightweight & Fast', detail: 'Optimized for low-end devices with limited hardware resources.'},
+        {title: 'Low-End Device Friendly', detail: 'Designed to run smoothly without consuming excessive system resources.'},
+        {title: 'Modern UI', detail: 'Clean, intuitive, and visually appealing interface.'},
+        {title: 'Performance Optimized', detail: 'Focused on efficient resource usage and responsive navigation.'},
+        {title: 'Music Discovery', detail: 'Explore and enjoy your favorite music in one place.'},
+        {title: 'Accessible Experience', detail: 'Aiming to make premium-style music streaming accessible to everyone.'},
       ],
       appInfo: [
-        {label: 'Application', value: 'V-Tune 3.0'},
-        {label: 'Version', value: '1.0.0'},
-        {label: 'Build', value: '100'},
-        {label: 'Platform', value: 'Android'},
-        {label: 'iOS', value: 'Coming Soon'},
+        {label: 'Application', value: 'DOOM Music'},
+        {label: 'Platform', value: 'Web'},
         {label: 'Developer', value: 'Videsh Karmakar'},
         {label: 'UI/UX Design', value: 'Figma & Stitch'},
       ],
       designNote:
-        'V-Tune is built around the idea of combining thoughtful product design with lightweight performance to create a better music experience.',
-      installationSteps: [
-        "Visit the project's GitHub repository.",
-        'Open the Releases section.',
-        'Download the latest available Android release.',
-        'Install the APK on your compatible Android device.',
-      ],
-      updatesNote:
-        'Check the GitHub Releases section for new versions, improvements, and updates.',
+        'DOOM is built around the idea of combining thoughtful product design with lightweight performance to deliver a premium music experience to everyone.',
       projectStatus:
-        'V-Tune 3.0 is an evolving project. More improvements, refinements, and updates may arrive in future releases.',
+        'DOOM is an evolving project. More improvements, refinements, and updates may arrive in future releases.',
     },
     {
       id: 'app-slot-02',
@@ -596,5 +575,63 @@ export const PORTFOLIO_DATA: ArtistPortfolioData = {
       projectStatus:
         'শারদ ভ্রমণ is an evolving project. Features, destination information, and improvements may be introduced in future releases.',
     },
-  ],
+    {
+      id: 'app-slot-05',
+      slotNumber: '05',
+      appName: 'V-Tune 3.0',
+      websiteUrl: 'https://vtune3.ai.studio/',
+      tagline: 'Music Without Limits. Built for Everyone.',
+      description:
+        'V-Tune 3.0 is a lightweight music streaming alternative to Spotify and YouTube Music, specially designed for low-end devices. It focuses on simplicity, performance, and an effortless listening experience without unnecessary complexity.',
+      category: 'Android · Music Streaming',
+      isPopulated: true,
+      about: [
+        'V-Tune 3.0 aims to deliver a modern music experience while keeping performance and accessibility at its core.',
+        "Whether you're using a high-end smartphone or a budget device, V-Tune focuses on providing a clean, lightweight, and responsive experience. Simple. Lightweight. Smooth.",
+      ],
+      highlights: [
+        {
+          title: 'Music Experience',
+          detail: 'An alternative to Spotify and YouTube Music.',
+        },
+        {
+          title: 'Lightweight Performance',
+          detail: 'Specially designed for low-end devices.',
+        },
+        {
+          title: 'Device Friendly',
+          detail: 'Focused on smooth performance across Android devices.',
+        },
+        {
+          title: 'Modern Design',
+          detail: 'Clean interface with a user-friendly experience.',
+        },
+        {
+          title: 'Accessible Experience',
+          detail: 'Designed to make music listening simple and convenient.',
+        },
+      ],
+      appInfo: [
+        {label: 'Application', value: 'V-Tune 3.0'},
+        {label: 'Version', value: '1.0.0'},
+        {label: 'Build', value: '100'},
+        {label: 'Platform', value: 'Android'},
+        {label: 'iOS', value: 'Coming Soon'},
+        {label: 'Developer', value: 'Videsh Karmakar'},
+        {label: 'UI/UX Design', value: 'Figma & Stitch'},
+      ],
+      designNote:
+        'V-Tune is built around the idea of combining thoughtful product design with lightweight performance to create a better music experience.',
+      installationSteps: [
+        "Visit the project's GitHub repository.",
+        'Open the Releases section.',
+        'Download the latest available Android release.',
+        'Install the APK on your compatible Android device.',
+      ],
+      updatesNote:
+        'Check the GitHub Releases section for new versions, improvements, and updates.',
+      projectStatus:
+        'V-Tune 3.0 is an evolving project. More improvements, refinements, and updates may arrive in future releases.',
+    }
+  ]
 };

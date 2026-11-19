@@ -1,8 +1,11 @@
 import React, {useState} from 'react';
 import {Menu, X} from 'lucide-react';
+import {UpdateNotifier} from './UpdateNotifier';
+import type {SiteUpdate} from '../lib/siteUpdates';
 
 interface NavbarProps {
   brandName: string;
+  updates: SiteUpdate[];
 }
 
 const NAV_LINKS = [
@@ -12,7 +15,7 @@ const NAV_LINKS = [
   {label: 'Contact', href: '#contact'},
 ];
 
-export const Navbar: React.FC<NavbarProps> = ({brandName}) => {
+export const Navbar: React.FC<NavbarProps> = ({brandName, updates}) => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleNavClick = () => {
@@ -43,8 +46,9 @@ export const Navbar: React.FC<NavbarProps> = ({brandName}) => {
           ))}
         </nav>
 
-        {/* Zone 3: 1 Primary Action + Mobile Trigger */}
+        {/* Zone 3: Update Notifier + 1 Primary Action + Mobile Trigger */}
         <div className="flex items-center gap-3 shrink-0">
+          <UpdateNotifier updates={updates} />
           <a
             href="#contact"
             className="hidden sm:inline-flex items-center justify-center rounded-lg px-4 py-2 text-xs font-semibold btn-accent whitespace-nowrap shrink-0 min-h-[40px]"
